@@ -2,6 +2,8 @@ package com.curso.ecommerce.service;
 
 import java.util.Optional;
 
+import javax.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +16,7 @@ import org.springframework.stereotype.Service;
 
 import com.curso.ecommerce.model.Usuario;
 
-import jakarta.servlet.http.HttpSession;
+//import jakarta.servlet.http.HttpSession;
 
 @Service
 public class UserDetailServiceImpl implements UserDetailsService{
